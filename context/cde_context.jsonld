@@ -1,5 +1,6 @@
 {
-	"@context": {
+	"@context": ["https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+		{
 		"@version": 1.1,
 		"rdfs": {
 			"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -35,7 +36,8 @@
 		"description": "http://purl.org/dc/terms/description",
 		"isAbout": {
 			"@id": "http://uri.interlex.org/ilx_0381385",
-			"@container": "@list"
+			"@type": "nidm:IsAbout",
+			"@container": "@set"
 		},
 		"isPartOf": "http://uri.interlex.org/ilx_0112785",
 		"sameAs": {
@@ -68,7 +70,9 @@
 		"choices": "schema:itemListElement",
 		"derivative": "http://uri.interlex.org/ilx_0739337",
 		"citation": "schema:citation",
-		"associatedWith": "http://uri.interlex.org/ilx_0739289",
+		"associatedWith": {
+			"@id": "http://uri.interlex.org/ilx_0739289"
+		},
 		"responseOptions": {
 			"@id": "rs:responseOptions"
 		},
@@ -83,4 +87,5 @@
 			]
 		}
 	}
+		]
 }
