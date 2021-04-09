@@ -1,0 +1,24 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": "DataElement",
+  "description": "This terms was created for testing UI functionality ",
+  "associatedWith": [
+    "BIDS",
+    "NIDM"
+  ],
+  "comment": "no additional comments",
+  "label": "testTerm",
+  "responseOptions": {
+    "choices": [
+      {
+        "name": "1",
+        "value": "a"
+      },
+      {
+        "name": "2",
+        "value": "b"
+      }
+    ],
+    "valueType": "boolean"
+  }
+}
