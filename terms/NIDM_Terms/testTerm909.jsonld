@@ -1,0 +1,7 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": "PersonalDataElement",
+  "description": "This terms was created for testing UI functionality ",
+  "associatedWith": "NIDM",
+  "label": "testTerm909"
+}
