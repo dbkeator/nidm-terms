@@ -850,7 +850,6 @@
     {
       "@type": "PersonalDataElement",
       "description": "Scale for Traits that Increase Risk for Bipolar II Disorder",
-      "url": "",
       "sourceVariable": "MeasurementToolMetadata",
       "associatedWith": "NIDM"
     }
