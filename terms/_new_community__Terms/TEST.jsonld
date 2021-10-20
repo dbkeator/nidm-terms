@@ -1,0 +1,10 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": "DataElement",
+  "description": "description of the term",
+  "schema:url": "url of the term is..",
+  "responseOptions": [
+    {}
+  ],
+  "label": "TEST"
+}
