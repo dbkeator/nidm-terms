@@ -1,0 +1,9 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": "PersonalDataElement",
+  "description": "test_des",
+  "responseOptions": [
+    {}
+  ],
+  "label": "test"
+}
