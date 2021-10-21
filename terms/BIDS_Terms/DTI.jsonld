@@ -1,0 +1,9 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": "PersonalDataElement",
+  "description": "Diffusion Tensor Imaging is a technique that detects how water travels along the white matter tracts in the brain ",
+  "responseOptions": [
+    {}
+  ],
+  "label": "DTI"
+}
