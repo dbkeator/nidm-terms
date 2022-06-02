@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "The Item number(s) of the X-Ray 3D Acquisition Sequence (0018,9507) that describes the acquisition context(s) contributing to this reconstruction.",
+  "candidateTerms": "dicom_00209518",
+  "associatedWith": [
+    "NIDM",
+    "DICOM"
+  ],
+  "label": "AcquisitionIndex123"
+}
