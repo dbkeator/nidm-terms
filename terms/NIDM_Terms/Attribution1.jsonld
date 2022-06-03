@@ -1,0 +1,20 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:Class"
+  ],
+  "description": "",
+  "candidateTerms": "Attribution",
+  "associatedWith": [
+    "NIDM",
+    "PROV"
+  ],
+  "supertypeCDEs": [
+    "prov:AgentInfluence"
+  ],
+  "comment": [
+    "An instance of prov:Attribution provides additional descriptions about the binary prov:wasAttributedTo relation from an prov:Entity to some prov:Agent that had some responsible for it. For example, :cake prov:wasAttributedTo :baker; prov:qualifiedAttribution [ a prov:Attribution; prov:entity :baker; :foo :bar ]."
+  ],
+  "label": "Attribution1"
+}
