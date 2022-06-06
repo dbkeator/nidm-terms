@@ -1,0 +1,23 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "A topic concerning high-throughput sequencing of cDNA to measure the RNA content (transcriptome) of a sample, for example, to investigate how different alleles of a gene are expressed, detect post-transcriptional mutations or identify gene fusions.",
+  "citation": "Description reference: SciCrunch/Interlex. Licensed under Attribution 3.0 Unported (CC BY 3.0).",
+  "responseOptions": [
+    {
+      "valueType": [
+        "xsd:string"
+      ],
+      "allowableValues": "RNAseq"
+    }
+  ],
+  "associatedWith": [
+    "CONP",
+    "DATS"
+  ],
+  "label": "RNA-Seq",
+  "sameAs": "http://uri.interlex.org/base/ilx_0739716"
+}
