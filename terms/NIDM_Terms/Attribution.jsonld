@@ -4,7 +4,7 @@
     "CommonDataElement",
     "owl:Class"
   ],
-  "description": "",
+  "description": "trial",
   "candidateTerms": "Attribution",
   "associatedWith": [
     "NIDM",
