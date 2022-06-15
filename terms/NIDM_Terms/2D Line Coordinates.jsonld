@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "Coordinates of the line in the HPGL document. Coordinates are measured in millimeters of the printing space.",
+  "candidateTerms": "dicom_006865B0",
+  "associatedWith": [
+    "NIDM",
+    "DICOM"
+  ],
+  "label": "2D Line Coordinates 2"
+}
