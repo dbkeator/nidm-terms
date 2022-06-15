@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "Indication of acquisition contrast used with frames in the SOP Instance.",
+  "candidateTerms": "dicom_00089209",
+  "associatedWith": [
+    "NIDM",
+    "DICOM"
+  ],
+  "label": "Acquisition Contrast 2"
+}
