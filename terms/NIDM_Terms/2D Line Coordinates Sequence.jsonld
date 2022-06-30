@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "2D coordinates of the line in the HPGL documents. One or more Items shall be included in this Sequence. Required if 3D Line Coordinates (0068,65D0) is not present and HPGL Document Sequence (0068,62C0) is present. May be present if 3D Line Coordinates (0068,65D0) is present and HPGL Document Sequence (0068,62C0) is present.",
+  "candidateTerms": "dicom_006865A0",
+  "associatedWith": [
+    "NIDM",
+    "DICOM"
+  ],
+  "label": "2D Line Coordinates Sequence"
+}
