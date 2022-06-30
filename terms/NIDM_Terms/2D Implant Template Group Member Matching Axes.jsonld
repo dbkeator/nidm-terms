@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "Direction cosines of the Matching Point.",
+  "candidateTerms": "dicom_007800A0",
+  "associatedWith": [
+    "NIDM",
+    "DICOM"
+  ],
+  "label": "2D Implant Template Group Member Matching Axe"
+}
