@@ -1,0 +1,14 @@
+{
+  "@context": "https://raw.githubusercontent.com/NIDM-Terms/terms/master/context/cde_context.jsonld",
+  "@type": [
+    "CommonDataElement",
+    "owl:DatatypeProperty"
+  ],
+  "description": "3D Coordinates of the plane origin. Required if 2D Plane Coordinates Sequence (0068,65E0) is not present and Implant Template 3D Model Surface Number (0068,6350) is present. May be present if 2D Plane Coordinates Sequence (0068,65E0) is present and Implant Template 3D Model Surface Number (0068,6350) is present.",
+  "candidateTerms": "dicom_00686610",
+  "associatedWith": [
+    "NIDM",
+    "DICOM"
+  ],
+  "label": "3D Plane Origin"
+}
